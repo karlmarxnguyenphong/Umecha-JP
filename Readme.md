@@ -16,7 +16,6 @@ The Gulp Starter Kit is a basic project template using Gulp to automate web deve
 1. **Clone Repository**
    ```bash
    git clone git@github.com:karlmarxnguyenphong/gulp-front-end-kit.git
-   cd gulp-starter-kit
 2. **Install npm**
    ```bash
    npm install
