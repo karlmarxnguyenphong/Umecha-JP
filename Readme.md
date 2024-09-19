@@ -19,47 +19,4 @@ The Gulp Starter Kit is a basic project template using Gulp to automate web deve
 2. **Install npm**
    ```bash
    npm install
-3. **Directory Structure**
-   ├──disk
-   │  ├──js
-   │  ├──scss
-   │     ├──foundation
-   │        ├──_base.scss
-   │        ├──_normalize.scss
-   │        └──_reset.scss
-   │     ├──layout
-   │        ├──_footer.scss
-   │       ├──_header.scss
-   │        ├──_main.scss
-   │        └──_sidebar.scss
-   │     ├──object
-   │        ├──component
-   │           ├──_button.scss
-   │           ├──_dialog.scss
-   │           ├──_girl.scss
-   │           └──_media.scss
-   │           
-   │         ├──project
-   │            ├──_aticles.scss
-   │            ├──_comments.scss
-   │            ├──_gallery.scss
-   │            └──_profile.scss
-   │         └──utility
-   │            ├──_align.scss
-   │            ├──_clearfix.scss
-   │            ├──_margin.scss
-   │            ├──_position.scss
-   │            ├──_size.scss
-   │            └──_text.scss
-   │      └──style.scss
-   ├──project
-   │   ├──src
-   │   │  ├──images
-   │   │  ├──js
-   │   │  └──style
-   │   │     └──style.css
-   │   └──index.html
-   ├──.gitignore
-   ├──gulpfile.js
-   ├──package.json
-   └──Readme.md
+
