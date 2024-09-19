@@ -1,0 +1,23 @@
+.footer{
+    margin-top: 200px;
+    background: #0A182B;
+    // height: 250px;
+    width: 100%;
+    padding: 70px 0 35px;
+    @media (max-width: 767px){
+        padding: 38px 0 18px;
+    }
+    &__logo{
+        display: flex;
+        justify-content: center;
+    }
+    &__copyright{
+        text-align: center;
+        margin-top: 45px;
+        font-size: 10px;
+        font-weight: medium;
+        letter-spacing: 0.1em;
+        line-height: 4;
+
+    }
+}
