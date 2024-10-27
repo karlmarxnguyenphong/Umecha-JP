@@ -1,5 +1,6 @@
+@use "../foundation/variables";
 .section-width {
-    max-width: $section-width;
+    max-width: variables.$section-width;
     padding: 0px 50px 0 50px;
     margin: 0 auto;
     scroll-margin-top: 180px;

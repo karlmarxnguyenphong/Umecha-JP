@@ -1,3 +1,4 @@
+@use "../foundation/variables";
 .header{
     display: flex;
     align-items: center;
@@ -42,7 +43,7 @@
             display: flex;
             align-items: center; //align-item, justify-content: chỉ sử dụng khi display;flex được áp dụng,để căn giữa các mục.
             justify-content: center;
-            color: $siteColor;
+            color: variables.$siteColor;
             font-weight: bold;
             letter-spacing: 0.1em;
             font-size: 15px;
@@ -67,7 +68,7 @@
                 left: 0;
                 bottom: -5px;
                 content: "";
-                background: $siteColor;
+                background: variables.$siteColor;
                 position: absolute;
                 transform: scaleX(0); // Ẩn đường line ban đầu
                 transform-origin: bottom center; // Đặt điểm gốc chuyển đổi ở giữa dưới
@@ -77,14 +78,14 @@
         &-btn{
             margin-left: 2em;
             min-width: 150px;
-            background: $siteColor;
+            background: variables.$siteColor;
             color: #FFF;
             box-shadow: 0px 0px 10px #00000080;
             transition: background 0.5s; //Chuyển tiếp cho nền
             text-align: center;
             &:hover{
                 // transition: all 0.5s;
-                background: $orange;
+                background: variables.$orange;
             }
             @media (max-width: 1023px) {
                 margin-left: 1.5em;
@@ -116,7 +117,7 @@
         display: block;
         width: 100%;
         height: 2px;
-        background: $siteColor;
+        background: variables.$siteColor;
         &:first-child{
             top: 0px;
         }
@@ -176,7 +177,7 @@
         height: 80px;
         font-weight: bold;
         text-decoration: none;
-        color: $siteColor;
+        color: variables.$siteColor;
         font-size: 18px;
         text-align: center;
     }
@@ -185,7 +186,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background: $siteColor;
+        background: variables.$siteColor;
         color: #FFF;
         height: 93px;
     }

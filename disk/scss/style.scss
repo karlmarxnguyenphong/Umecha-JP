@@ -1,49 +1,49 @@
 // ==========================================================================
 // Foundation
 // ==========================================================================
-@import "foundation/_reset";
-@import "foundation/_normalize";
-@import "foundation/_variables";
+@use "foundation/reset";
+@use "foundation/normalize";
+@use "foundation/variables";
 
 // ==========================================================================
 // Layout
 // ==========================================================================
 
-@import "layout/_footer";
-@import "layout/_header";
-@import "layout/_main";
+@use "layout/footer";
+@use "layout/header";
+@use "layout/main";
 
 // ==========================================================================
 // Object
 // ==========================================================================
 
-@import "object/button";
-@import "object/card";
-@import "object/form";
-@import "object/title";
-@import "object/section";
+@use "object/button";
+@use "object/card";
+@use "object/form";
+@use "object/title";
+@use "object/section";
 
 // -----------------------------------------------------------------
 // Component
 // -----------------------------------------------------------------
 
-@import "component/dropdown";
-@import "component/modal";
-@import "component/slider";
+@use "component/dropdown";
+@use "component/modal";
+@use "component/slider";
 
 // -----------------------------------------------------------------
 // state
 // -----------------------------------------------------------------
 
-@import "state/active";
-@import "state/disabled";
-@import "state/hover";
+@use "state/active";
+@use "state/disabled";
+@use "state/hover";
 
 // -----------------------------------------------------------------
 // page
 // -----------------------------------------------------------------
 
-@import "page/home";
+@use "page/home";
 
 
 

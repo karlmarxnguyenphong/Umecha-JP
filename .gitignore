@@ -2,3 +2,5 @@
 node_modules/
 # Package lock file (optional, if you want to exclude it)
 package-lock.json
+# Folder SCSS
+disk/

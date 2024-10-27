@@ -1,3 +1,4 @@
+@use "../foundation/variables";
 .btn{
     display: flex;
     width: 100%;
@@ -14,7 +15,7 @@
     font-weight: bold;
     transition: background 0.5s; //Chuyển tiếp cho nền
     &:hover{
-        background: $orange;
+        background: variables.$orange;
         color: #fff;
     }
     @media(max-width: 767px){
